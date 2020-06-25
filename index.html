@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <input id="startBtn" type="button" value="Start">
+    </header>
+    <main>
+        <h1>Chose something</h1>
+        <div id="cardChoices" class="cardChoices">
+            <img id="0" class="imgChoice" src="./img/rock.png" alt="">
+            <img id="1" class="imgChoice" src="./img/paper.png" alt="">
+            <img id="2" class="imgChoice" src="./img/scissors.png" alt="">
+        </div>
+        <h1>Player Score:  <spam id="playerScore">0<spam/></h1>
+        <hr>
+        <div class="messages">
+            <h1 id="message">
+                Press start 
+            </h1>
+            <img src="" id="playerPlay">
+            <h1 id="signPlay"> : </h1>
+            <img src="" id="compPlay">
+        </div>
+        <hr>
+        <div class="aiContainer">
+            <h1>AI Score: <spam id="compScore">0</spam></h1>
+            <img class="imgComp" src="./img/comp.gif" alt="">
+        </div>
+    </main>
+
     <script src="./js/app.js"></script>
 </body>
 </html>

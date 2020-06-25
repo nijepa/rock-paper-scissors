@@ -1,0 +1,93 @@
+body {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+header {
+    margin: auto;
+    max-width: max-content;
+    padding: .5em;
+}
+
+#startBtn {
+    background: transparent;
+    color: slategray;
+    padding: .5em .5em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.5s ease-out;
+}
+
+#startBtn:hover {
+    color: dodgerblue;
+    box-shadow: 2px 2px dodgerblue;
+    transform: translatex(-10px) translateY(10px) rotate(-3deg);
+}
+
+h1 {
+    margin: auto;
+    padding: .5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: .5em .5em;
+    padding: .5em .5em;
+}
+
+.cardChoices {
+    display: flex;
+    justify-content: center;
+    margin: .5em .5em;
+    padding: .5em .5em;
+}
+
+.imgChoice {
+    cursor: pointer;
+    margin: .5em 1em;
+    padding: .5em 1em;
+    border-radius: 2px;
+    width: 10em;
+    transition: transform 0.5s ease-out;
+}
+
+.imgChoice:hover {
+    box-shadow: 2px 2px dodgerblue;
+    transform: rotate(3deg) scale(1.3, 1.3);
+}
+
+.aiContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgComp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5em;
+    width: 10em;
+}
+
+hr {
+    border: 2px solid steelblue;
+    width: 100%;
+}
+
+.messages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.messages img {
+    width: 10em;
+}
